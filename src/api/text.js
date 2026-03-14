@@ -1,7 +1,8 @@
 import axios from "axios"
 
 
-const url = "http://localhost:8080/"
+// const url = "http://localhost:8080/"
+const url = import.meta.env.ClipCloud_Backend_URL
 
 export const handleCheckPassword =async (password)=>{
     
